@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: jemblem
+  host: jemblem
+  disk_quota: 1024M
+  services:
+  - jemblem-cloudantNoSQLDB
+  - jemblem-iotf-service
